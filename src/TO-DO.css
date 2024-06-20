@@ -1,0 +1,64 @@
+#root{
+    border: 4px;
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+    background-image: url("https://wallpapers.com/images/hd/light-background-zd5zt90hbnwasnr4.jpg");
+    background-size: cover;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.to-do-inp{
+    padding: 0.75rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+.add-task-btn:hover{
+    background-color: rgb(90, 90, 247)   
+}
+
+h1{
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 1;
+}
+li.newTask{
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+button.delTask {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    color: red;
+}
+
+.edit-task{
+    margin-left: 2rem;
+}
+
+button.mark-done{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    color: rgb(1, 92, 1);
+}
+button.mark-all-done:hover{
+    background-color: rgb(61, 167, 61);
+}
+
+.reset-btn{
+    margin-left: 3rem;
+}
+
+.reset-btn:hover{
+    background-color: rgb(228, 100, 100);
+}
